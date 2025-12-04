@@ -1,0 +1,19 @@
+set_max_charge_current:
+  name: Set Max Charge Current
+  description: Sets the charger’s maximum output current.
+  fields:
+    device_id:
+      name: Device
+      description: The Renogy charger device to control.
+      selector:
+        device:
+          integration: renogy_modbus
+    current:
+      name: Current (A)
+      description: Maximum charging current in amps.
+      example: 50
+      selector:
+        number:
+          min: 10
+          max: 50
+          step: 1

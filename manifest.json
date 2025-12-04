@@ -1,0 +1,13 @@
+{
+  "domain": "renogy_modbus",
+  "name": "Renogy Modbus",
+  "version": "0.0.1",
+  "config_flow": true,
+  "documentation": "",
+  "dependencies": [],
+  "requirements": [],
+  "codeowners": ["timmchugh11"],
+  "loggers": [
+    "custom_components.renogy_modbus"
+  ]
+}
