@@ -1,0 +1,6 @@
+{
+  "name": "Renogy Modbus TCP",
+  "content_in_root": false,
+  "domains": ["renogy_modbus"],
+  "homeassistant": "2023.9.0"
+}
