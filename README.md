@@ -16,7 +16,7 @@ This integration exposes **all raw Modbus registers** as Home Assistant sensors,
 - Template-friendly
 
 ## Installation
-Add the custom repo to Add the custom repo to HACS as an intergration
+Add the custom repo to HACS as an intergration
 
 ```https://github.com/timmchugh11/homeassistant-renogy-modbus-tcp```
 
